@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "yandex" {
-  token     = "y0_AgAEA7gfQFj_AATuwQASDADW4_vK1qdYil93148SDp-rjslVQ9l3cNQ8"
-  cloud_id  = "b1g5j32r613jomlsh9jj8"
-  folder_id = "b1g3ib5fse211pg3q5op"
+  token     = "yandex"
+  cloud_id  = "0000"
+  folder_id = "0000"
   zone      = "ru-central-b"
 }
 
@@ -65,7 +65,7 @@ resource "yandex_vpc_network" "network-1" {
 resource "yandex_vpc_subnet" "subnet-1" {
   name           = "subnet1"
   zone           = "ru-central1-b"
-  v4_cidr_blocks = ["192.168.10.0/24"]
+  v4_cidr_blocks = ["192.116.10.0/24"]
   network_id     = "${yandex_vpc_network.network-1.id}"
 }
 
