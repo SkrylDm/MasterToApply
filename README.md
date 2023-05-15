@@ -5,4 +5,4 @@
 > - ***Terraform folder*** includes clound config with PostgreSQL database connected (university).
 > - ***CI_GitHub_Actions folder*** includes a link to a repo on CI testing with ".github/workflows" via GitHub Actions implemented (university).
 > - ***C++ folder*** includes a menu programme on managerial issues (university).
-> - ***C folder*** includes some apps and algorithms in GemDev developed by our team (case competition).
+> - ***C folder*** includes a link to three apps and algorithms in GemDev developed by our team (case competition).
